@@ -58,7 +58,7 @@ function checkAnswer(currentLevel) {
       console.log("wrong");
       console.log(gamePattern);
       console.log(userClickedPattern);
-      $("#level-title").text("Wrong Press any key to start over");
+      $("#level-title").text("Wrong Press Start to start over");
       playSound("wrong");
       $("body").addClass("game-over");
       setTimeout(function () {
